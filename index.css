@@ -289,16 +289,17 @@ body {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   margin: 10px;
-  width: 330px;
-  margin-bottom: 80px;
+  width: 300px;
 
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 .card-img {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  width: 330px;
+  width: 300px;
 }
 
 .cs-txt {
@@ -517,6 +518,7 @@ body {
 
   .ham-menu {
     visibility: visible;
+    padding-right: 10px;
 
   }
 
@@ -526,7 +528,7 @@ body {
 
   .firstSection {
     height: 54vh;
-    margin-top: 100px;
+    margin-top: 85px;
   }
 
   .boxMain {
@@ -590,6 +592,7 @@ body {
 
   .card-cont {
     flex-direction: row;
+    justify-content: center;
   }
 
   .card {
@@ -613,6 +616,16 @@ body {
   .sctct {
     font-size: 13px;
     margin: 10px;
+  }
+
+  .cs-desc {
+
+    font-size: 14px;
+
+  }
+
+  .st-img {
+    width: 130px;
   }
 
 }
