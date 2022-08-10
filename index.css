@@ -10,7 +10,7 @@
 
 .sidenav {
   height: 90vh;
-  width: 325px;
+  width: 285px;
   position: fixed;
   /* z-index: 1; */
   top: 0;
@@ -24,13 +24,19 @@
 }
 
 .sidenav a {
-  padding: 44px 7px 7px 78px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
   transition: 0.3s;
   font-family: "Assistant", sans-serif;
+  padding-left: 40px;
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+.sidelogocont {
+  padding-left: 35px;
 }
 
 .sidenav a:hover {
@@ -58,12 +64,24 @@
   width: 100%;
 }
 
+.logohamcont {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logocont {
-  /* background-color: lightsalmon; */
-  width: 40%;
   padding-left: 60px;
   margin: 10px;
   align-items: center;
+
+  /* width: 400px; */
+}
+
+.ham-menu {
+  visibility: collapse;
 }
 
 .navList {
@@ -468,7 +486,7 @@ body {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   body {
     width: 100%;
   }
@@ -477,12 +495,30 @@ body {
     visibility: visible;
   }
 
-  .logocont2 {
-    width: 100%;
+  .logocont {
+
+    padding-left: 10px;
   }
 
-  .logocont2 {
-    padding-left: 105px;
-    padding-right: 80px;
+  .navList {
+
+    display: none;
   }
+
+  .ham-menu {
+    visibility: visible;
+
+  }
+
+  .navbar {
+    width: 50%;
+  }
+
+  .firstSection {
+    height: 28vh;
+    margin-top: 90px;
+    /* background-color: #4a5868; */
+  }
+
+
 }
