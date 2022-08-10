@@ -8,6 +8,43 @@
   margin: 0px;
 }
 
+.sidenav {
+  height: 90vh;
+  width: 325px;
+  position: fixed;
+  /* z-index: 1; */
+  top: 0;
+  left: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  visibility: hidden;
+  z-index: 999;
+}
+
+.sidenav a {
+  padding: 44px 7px 7px 78px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: "Assistant", sans-serif;
+}
+
+.sidenav a:hover {
+  color: #000;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  font-size: 70px;
+  margin-left: 20px;
+}
+
 .navbar {
   display: flex;
   background: #ffffff none repeat scroll 0 0;
@@ -19,13 +56,12 @@
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   width: 100%;
-  z-index: 999;
 }
 
 .logocont {
   /* background-color: lightsalmon; */
   width: 40%;
-  padding-left: 70px;
+  padding-left: 60px;
   margin: 10px;
   align-items: center;
 }
@@ -35,6 +71,7 @@
   flex-direction: row;
   align-items: center;
 }
+
 .logo {
   height: 50px;
   margin-top: 15px;
@@ -117,6 +154,7 @@ body {
   padding-top: 5px;
   font-weight: 800;
 }
+
 .descrip {
   line-height: 150%;
   padding-top: 25px;
@@ -272,21 +310,22 @@ body {
 
 }
 
-.small{
+.small {
   font-size: 18px;
   padding-top: 70px;
 }
-.large{
+
+.large {
   font-size: 40px;
   padding-bottom: 60px;
 }
 
-.st-img{
+.st-img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.st-card{
+.st-card {
   background-color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -294,12 +333,12 @@ body {
   border-bottom-right-radius: 10px;
 }
 
-.name{
+.name {
   color: black;
   font-size: 17px;
 }
 
-.desc{
+.desc {
   color: black;
   font-size: 14px;
   margin-top: -20px;
@@ -312,8 +351,7 @@ body {
   padding: 150px;
   padding-left: 200px;
   padding-right: 200px;
-  background: rgba(0, 0, 0, 0)
-    url("https://htmldemo.net/edubuzz/edubuzz/img/banner/7.png");
+  background: rgba(0, 0, 0, 0) url("https://htmldemo.net/edubuzz/edubuzz/img/banner/7.png");
 }
 
 .sp-img {
@@ -428,4 +466,23 @@ body {
   border-radius: 1px;
   font-weight: 300;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    width: 100%;
+  }
+
+  .sidenav {
+    visibility: visible;
+  }
+
+  .logocont2 {
+    width: 100%;
+  }
+
+  .logocont2 {
+    padding-left: 105px;
+    padding-right: 80px;
+  }
 }
