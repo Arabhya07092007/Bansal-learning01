@@ -267,6 +267,11 @@ body {
   padding-bottom: 60px;
 }
 
+.card-cont {
+  display: flex;
+  flex-direction: column;
+}
+
 .cs-heading {
   font-weight: 700;
   font-family: "Assistant", sans-serif;
@@ -284,7 +289,7 @@ body {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   margin: 10px;
-  width: 350px;
+  width: 330px;
   margin-bottom: 80px;
 
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
@@ -293,7 +298,7 @@ body {
 .card-img {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  width: 350px;
+  width: 330px;
 }
 
 .cs-txt {
@@ -370,6 +375,11 @@ body {
   padding-left: 200px;
   padding-right: 200px;
   background: rgba(0, 0, 0, 0) url("https://htmldemo.net/edubuzz/edubuzz/img/banner/7.png");
+}
+
+.sp-cont {
+  display: flex;
+  flex-direction: row;
 }
 
 .sp-img {
@@ -511,14 +521,98 @@ body {
   }
 
   .navbar {
-    width: 50%;
+    width: 100%;
   }
 
   .firstSection {
-    height: 28vh;
-    margin-top: 90px;
-    /* background-color: #4a5868; */
+    height: 54vh;
+    margin-top: 100px;
   }
 
+  .boxMain {
+    padding-top: 15px;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headingText {
+    font-size: 28px;
+    padding-top: 5px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .btncont {
+
+    width: 200px;
+    margin: auto;
+  }
+
+  .btn {
+    margin-top: 0px;
+  }
+
+  .aboutUs {
+    display: flex;
+    flex-direction: column;
+    /* padding: 60px 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center; */
+  }
+
+  .ab-img {
+    width: 140px;
+
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+  }
+
+  .speaks {
+    flex-direction: column;
+    padding: 30px;
+
+    justify-content: center;
+  }
+
+  .sp-img-cont {
+    /* justify-content: center; */
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .card-cont {
+    flex-direction: row;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .st-card {
+    margin-bottom: 20px;
+  }
+
+  .footertitle {
+
+    font-size: 15px;
+
+  }
+
+  .footertxt {
+    font-size: 13px;
+  }
+
+  .sctct {
+    font-size: 13px;
+    margin: 10px;
+  }
 
 }
